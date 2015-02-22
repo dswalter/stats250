@@ -29,3 +29,13 @@ s_twonorm<-function(){
 s_tdist<-function(){
   shiny::runGitHub("shinylibs", "dswalter", subdir = "tdist", quiet = TRUE)
 }
+
+#' Run the Normal Approximation to the Binomial shiny app.
+#'
+#' @examples
+#' s_normbinom()
+s_normbinom<-function(){
+  shiny::runGitHub("shinylibs", "dswalter", subdir = "normapprox2bin", quiet = TRUE)
+}
+
+
