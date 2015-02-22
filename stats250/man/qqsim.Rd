@@ -10,6 +10,6 @@ qqsim()
 run the qqplot simulator script
 }
 \examples{
-qqsim()
+\dontrun{qqsim()}
 }
 

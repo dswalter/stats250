@@ -1,7 +1,7 @@
 #' Run the P-val Walkthrough script.
 #'
 #' @examples
-#' pva()
+#' \dontrun{pval()}
 pval<-function()
 {
   ### P-value script for R.

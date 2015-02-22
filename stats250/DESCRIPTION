@@ -3,7 +3,8 @@ Type: Package
 Title: Helper functions for STATS 250 at the University of Michigan
 Version: 0.0.9000
 Date: 2015-02-21
-Author: person("Daniel", "Walter", "dswalter@gmail.com", role = c("aut", "cre"))
+Authors@R: person("Daniel", "Walter", email = "dswalter@gmail.com",
+  role = c("aut", "cre"))
 Description: A group of helper functions for students in STATS
     250, the introductory statistics course at the University
     of Michigan. In particular, installation of this package

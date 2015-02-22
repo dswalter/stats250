@@ -10,6 +10,6 @@ pval()
 Run the P-val Walkthrough script.
 }
 \examples{
-pva()
+\dontrun{pval()}
 }
 

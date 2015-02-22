@@ -10,6 +10,6 @@ prob()
 Run the Probability Walkthrough script.
 }
 \examples{
-prob()
+\dontrun{prob()}
 }
 

@@ -1,7 +1,7 @@
 #' Run the Probability Walkthrough script.
 #'
 #' @examples
-#' prob()
+#' \dontrun{prob()}
 prob<-function()
 {
   ### Probability script for R.

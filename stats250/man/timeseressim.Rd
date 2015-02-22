@@ -10,6 +10,6 @@ timeseressim()
 Run the Time Series Simulation script.
 }
 \examples{
-timeseriessim()
+\dontrun{timeseriessim()}
 }
 

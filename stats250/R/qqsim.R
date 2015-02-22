@@ -1,7 +1,7 @@
 #' run the qqplot simulator script
 #'
 #' @examples
-#' qqsim()
+#' \dontrun{qqsim()}
 qqsim<-function()
 {
   ### time series script for R.

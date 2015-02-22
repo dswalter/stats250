@@ -1,7 +1,7 @@
 #' Run the Time Series Simulation script.
 #'
 #' @examples
-#' timeseriessim()
+#' \dontrun{timeseriessim()}
 timeseressim<-function()
 {
   ### time series script for R.
