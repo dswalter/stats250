@@ -10,6 +10,6 @@ s_propci()
 Run the proportion confidence interval shiny app.
 }
 \examples{
-s_propci()
+\dontrun{s_propci()}
 }
 

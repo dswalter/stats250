@@ -1,7 +1,7 @@
 Package: stats250
 Type: Package
 Title: Helper functions for STATS 250 at the University of Michigan
-Version: 0.0.9000
+Version: 0.0.0.9000
 Date: 2015-02-21
 Authors@R: person("Daniel", "Walter", email = "dswalter@gmail.com",
   role = c("aut", "cre"))

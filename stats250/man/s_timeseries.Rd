@@ -10,6 +10,6 @@ s_timeseries()
 Run the Timeseries shiny app.
 }
 \examples{
-s_timeseries()
+\dontrun{s_timeseries()}
 }
 

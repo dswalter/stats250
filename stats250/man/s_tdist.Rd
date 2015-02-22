@@ -10,6 +10,6 @@ s_tdist()
 Run the T distribution shiny app.
 }
 \examples{
-s_tdist()
+\dontrun{s_tdist()}
 }
 

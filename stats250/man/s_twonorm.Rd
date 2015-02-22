@@ -10,6 +10,6 @@ s_twonorm()
 Run the Two Normal Distributions shiny app.
 }
 \examples{
-s_twonorm()
+\dontrun{s_twonorm()}
 }
 

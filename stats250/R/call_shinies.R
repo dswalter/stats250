@@ -1,7 +1,7 @@
 #' Run the Timeseries shiny app.
 #'
 #' @examples
-#' s_timeseries()
+#' \dontrun{s_timeseries()}
 s_timeseries<-function(){
   shiny::runGitHub("shinylibs", "dswalter", subdir = "timeseries", quiet = TRUE)
 }
@@ -9,7 +9,7 @@ s_timeseries<-function(){
 #' Run the proportion confidence interval shiny app.
 #'
 #' @examples
-#' s_propci()
+#' \dontrun{s_propci()}
 s_propci<-function(){
   shiny::runGitHub("shinylibs", "dswalter", subdir = "propconfint", quiet = TRUE)
 }
@@ -17,7 +17,7 @@ s_propci<-function(){
 #' Run the Two Normal Distributions shiny app.
 #'
 #' @examples
-#' s_twonorm()
+#' \dontrun{s_twonorm()}
 s_twonorm<-function(){
   shiny::runGitHub("shinylibs", "dswalter", subdir = "twonorm", quiet = TRUE)
 }
@@ -25,7 +25,7 @@ s_twonorm<-function(){
 #' Run the T distribution shiny app.
 #'
 #' @examples
-#' s_tdist()
+#' \dontrun{s_tdist()}
 s_tdist<-function(){
   shiny::runGitHub("shinylibs", "dswalter", subdir = "tdist", quiet = TRUE)
 }
@@ -33,7 +33,7 @@ s_tdist<-function(){
 #' Run the Normal Approximation to the Binomial shiny app.
 #'
 #' @examples
-#' s_normbinom()
+#' \dontrun{s_normbinom()}
 s_normbinom<-function(){
   shiny::runGitHub("shinylibs", "dswalter", subdir = "normapprox2bin", quiet = TRUE)
 }

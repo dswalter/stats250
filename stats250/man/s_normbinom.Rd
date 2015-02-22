@@ -10,6 +10,6 @@ s_normbinom()
 Run the Normal Approximation to the Binomial shiny app.
 }
 \examples{
-s_normbinom()
+\dontrun{s_normbinom()}
 }
 
