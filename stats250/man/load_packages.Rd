@@ -2,12 +2,12 @@
 % Please edit documentation in R/load_packages.R
 \name{load_packages}
 \alias{load_packages}
-\title{Load the required libraries for the R packages. Probably not a useful function}
+\title{Load the required libraries for the R packages. A potentially useful function.}
 \usage{
 load_packages()
 }
 \description{
-Load the required libraries for the R packages. Probably not a useful function
+Load the required libraries for the R packages. A potentially useful function.
 }
 \examples{
 load_packages()

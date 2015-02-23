@@ -1,4 +1,4 @@
-#' Load the required libraries for the R packages. Probably not a useful function
+#' Load the required libraries for the R packages. A potentially useful function.
 #'
 #' @examples
 #' load_packages()
