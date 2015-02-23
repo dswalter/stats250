@@ -14,8 +14,12 @@ Description: A group of helper functions for students in STATS
 License: GPL
 LazyData: TRUE
 Imports:
-    shiny,
-    ggplot2,
     Rcmdr,
-    RcmdrPlugin.epack
-Depends: R (>= 3.1.0)
+    RcmdrPlugin.epack,
+    shiny,
+    ggplot2
+Depends: R (>= 3.1.0),
+    Rcmdr,
+    RcmdrPlugin.epack,
+    shiny,
+    ggplot2
