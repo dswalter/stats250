@@ -1,5 +1,5 @@
 #' Run the Timeseries shiny app.
-#'
+#' @export
 #' @examples
 #' \dontrun{s_timeseries()}
 s_timeseries<-function(){
@@ -8,6 +8,7 @@ s_timeseries<-function(){
 
 #' Run the proportion confidence interval shiny app.
 #'
+#' @export
 #' @examples
 #' \dontrun{s_propci()}
 s_propci<-function(){
@@ -15,7 +16,7 @@ s_propci<-function(){
 }
 
 #' Run the Two Normal Distributions shiny app.
-#'
+#' @export
 #' @examples
 #' \dontrun{s_twonorm()}
 s_twonorm<-function(){
@@ -23,7 +24,7 @@ s_twonorm<-function(){
 }
 
 #' Run the T distribution shiny app.
-#'
+#' @export
 #' @examples
 #' \dontrun{s_tdist()}
 s_tdist<-function(){
@@ -31,7 +32,7 @@ s_tdist<-function(){
 }
 
 #' Run the Normal Approximation to the Binomial shiny app.
-#'
+#'  @export
 #' @examples
 #' \dontrun{s_normbinom()}
 s_normbinom<-function(){
