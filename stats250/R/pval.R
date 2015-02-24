@@ -1,5 +1,6 @@
 #' Run the P-val Walkthrough script.
 #'
+#' @export
 #' @examples
 #' \dontrun{pval()}
 pval<-function()

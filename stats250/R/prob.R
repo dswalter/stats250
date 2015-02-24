@@ -1,5 +1,6 @@
 #' Run the Probability Walkthrough script.
 #'
+#' @export
 #' @examples
 #' \dontrun{prob()}
 prob<-function()

@@ -1,5 +1,6 @@
 #' run the qqplot simulator script
 #'
+#' @export
 #' @examples
 #' \dontrun{qqsim()}
 qqsim<-function()

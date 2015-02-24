@@ -1,5 +1,6 @@
 #' Run the Time Series Simulation script.
 #'
+#' @export
 #' @examples
 #' \dontrun{timeseriessim()}
 timeseressim<-function()
