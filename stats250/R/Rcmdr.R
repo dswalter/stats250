@@ -2,7 +2,15 @@
 #' This way, run Rcmdr() and the environment will be ready.
 #' @import RcmdrPlugin.epack
 #' @examples
-#' Rcmdr()
+#' \dontrun{Rcmdr()}
 Rcmdr<-function(){
   Rcmdr::Commander()
 }
+
+
+
+#' @import Rcmdr
+NULL
+
+#' @import ggplot2
+NULL
