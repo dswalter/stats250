@@ -9,8 +9,8 @@ Description: A group of helper functions for students in STATS
     250, the introductory statistics course at the University
     of Michigan. In particular, installation of this package
     provides access to a range of educational tools created
-    using shiny which can be run on the user's local computer
-     without incurring server costs.
+    using the shiny package which can then be run on the
+    user's local computer without incurring server costs.
 License: GPL
 LazyData: TRUE
 Imports:
