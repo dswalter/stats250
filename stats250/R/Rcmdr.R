@@ -7,11 +7,3 @@
 Rcmdr<-function(){
   Rcmdr::Commander()
 }
-
-
-
-#' @import Rcmdr
-NULL
-
-#' @import ggplot2
-NULL
