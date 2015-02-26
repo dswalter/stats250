@@ -5,9 +5,6 @@
 #' @name stats250
 NULL
 
-#' @import Rcmdr
-NULL
-
 #' @import RcmdrPlugin.epack
 NULL
 
