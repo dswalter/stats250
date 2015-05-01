@@ -1,4 +1,8 @@
+#'@imports shiny,ggplot2
+
+
 #' Run the Timeseries shiny app.
+#'
 #'
 #' @examples
 #' \dontrun{s_timeseries()}
