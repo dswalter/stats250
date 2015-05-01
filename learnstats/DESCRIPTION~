@@ -8,15 +8,15 @@ Authors@R: person("Daniel", "Walter", email = "dswalter@gmail.com",
 Description: This package allows students with a limited programming
     background to use R as an interactive educational environment 
     for basic statistics. In particular, installation of this package 
-    provides access to scripts that leverage R's shiny to interactively introduce
+    provides access to scripts that leverage R to interactively introduce
     content ranging from p-values to confidence intervals to stability in 
     time series.
 License: GPL
 LazyData: TRUE
 Imports:
     shiny,
-    rmarkdown,
-    Rcmdr
+	rmarkdown,
+	Rcmdr
 Depends: R (>= 3.1.0),
     RcmdrPlugin.epack,
     ggplot2
