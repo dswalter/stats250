@@ -1,0 +1,54 @@
+---
+title: "The Uniform Distribution"
+author: "Daniel Walter"
+date: "May 1, 2015"
+output: html_document
+runtime: shiny
+---
+
+
+The Uniform distribution is a probability distribution where, unlike the Normal or Binomial, the probability is equal across the entire range. 
+
+As the range increases, the probability of landing in any one area decreases, because the probability of all regions needs to sum up to 1 (this is true of all probability distributions) and that probability of 1 now needs to be stretched across a wider area.
+
+#### Density
+
+```{r, echo=FALSE}
+library(ggplot2)
+
+
+sliderInput("range","Range of the uniform density",min=-2,max=7,value=c(0,1),step=1)
+
+renderText({paste("What we have is now a Uniform random variable with a minimum of ", input$range[1], " and a maximum of ", input$range[2],", which we abbreviate as U(",input$range[1],",",input$range[2],"). ",sep="")})
+
+
+```
+
+
+
+```{r, echo=FALSE}
+rng<-seq(-2.5,7.5,0.1)
+rngdf<-data.frame(rng)
+unifplot<-ggplot(data=rngdf,aes(x=rng))+
+   ylab("Density")+xlab("Range of values")+ggtitle("Uniform Density")+coord_cartesian(xlim=c(-2,7),ylim=c(-0.0005,1.5))
+
+renderPlot({
+
+    #make a normal distribution based on inputs.
+    rmax<-input$range[2]
+    rmin<-input$range[1]
+    rlength<-rmax-rmin
+    rheight<-(1/rlength)
+
+    yvals<-dunif(x=rng,min=input$range[1],max=input$range[2])
+    ydf<-data.frame(rng,yvals)
+    print(unifplot+
+     # geom_ribbon(data=ydf,aes(ymin=0,ymax=yvals))
+    #+stat_function(fun=dchisq,args=list(df=input$df),color="black")
+    geom_rect(aes_string(xmax=input$range[2],xmin=input$range[1],ymin=0,ymax=rheight))
+    )
+    })
+
+```
+
+#### Simulation
