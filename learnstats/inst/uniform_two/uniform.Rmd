@@ -1,7 +1,5 @@
 ---
 title: "The Uniform Distribution"
-author: "Daniel Walter"
-date: "May 1, 2015"
 output: html_document
 runtime: shiny
 ---
@@ -13,6 +11,8 @@ As the range increases, the probability of landing in any one area decreases, be
 
 #### Density
 
+Change the values for maximum and minimum of the uniform random variable, and you can see how it changes.
+
 ```{r, echo=FALSE}
 library(ggplot2)
 
@@ -21,6 +21,8 @@ sliderInput("range","Range of the uniform density",min=-2,max=7,value=c(0,1),ste
 
 renderText({paste("What we have is now a Uniform random variable with a minimum of ", input$range[1], " and a maximum of ", input$range[2],", which we abbreviate as U(",input$range[1],",",input$range[2],"). ",sep="")})
 
+
+renderText({paste("The height of the density is 1/(the width of the interval), or in this case, 1/(",input$range[2],"-",input$range[1],")=1/",input$range[2]-input$range[1],sep="")})
 
 ```
 
@@ -51,4 +53,3 @@ renderPlot({
 
 ```
 
-#### Simulation
