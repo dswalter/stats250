@@ -1,16 +1,14 @@
 Package: learnstats
 Type: Package
-Title: R as an Interactive Educational Environment for Introductory Statistics
-Version: 0.1
-Date: 2015-02-21
+Title: An Interactive Environment for Learning Statistics
+Version: 0.1.0
+Date: 2015-05-01
 Authors@R: person("Daniel", "Walter", email = "dswalter@gmail.com",
   role = c("aut", "cre"))
-Description: This package allows students with a limited programming
-    background to use R as an interactive educational environment 
-    for basic statistics. In particular, installation of this package 
-    provides access to scripts that leverage R's shiny to interactively introduce
-    content ranging from p-values to confidence intervals to stability in 
-    time series.
+Description: Allows students with limited programming
+    experience to use R as an interactive educational environment
+    for statistical concepts, ranging from p-values to confidence intervals
+	to stability in time series.
 License: GPL
 LazyData: TRUE
 Imports:
