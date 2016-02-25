@@ -5,34 +5,6 @@
 #' \dontrun{pval()}
 pval<-function()
 {
-  ### P-value script for R.
-  ### by Josh Errickson
-  ### Original version by Tom Brown
-  ### Version History:
-  ### 2.4.2 - Minor spelling issues.
-  ### 2.4.1 - Never display probabilies as 0 or 1... just say <.0001 or >.9999
-  ### 2.4.0 - Added ability to save plots. Other misc changes mirroring prob().
-  ### 2.3.0 - Helper function to handle user input - should no longer ever crash! Just keep requesting new input.
-  ### 2.2.0 - Added looping action
-  ### 2.1.3 - I can spell distribution, I swear....
-  ### 2.1.2 - Fixed bug with negative test statistic & two-sided t/z tests
-  ### 2.1.1 - Fixed rounding in p-val
-  ### 2.1   - Minor output cleanups
-  ###       - Added errors for invalid inputs
-  ### 2.0   - Massive restructuring
-  ###       - Added mean, chi-sq
-  ### 1.0   - Tom Brown's original flavor
-
-  ##' Given a prompt and acceptable inputs, query user for input until they enter an acceptable value.
-  ##'
-  ##'
-  ##' @title
-  ##' @param prompt String shown to users to prompt for input.
-  ##' @param error Error string shown when user enters an invalid selection.
-  ##' @param validinput If non-NULL, only accept input in this list.
-  ##' @param low Only accept numeric values above this value.
-  ##' @param high Only accept numeric values below this value. If low>=high,
-  ##' do not accept any numeric input not explictly in validinput.
   ##' @return Acceptable user input.
   ##' @author Josh Errickson
   getvalidinput <- function(prompt, error, validinput = NULL, low=0, high=0)

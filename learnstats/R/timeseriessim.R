@@ -5,11 +5,6 @@
 #' \dontrun{timeseriessim()}
 timeseressim<-function()
 {
-  ### time series script for R.
-  ### by Omar Chavez
-  ### 1.0   - First version as cribbed from prob.R
-
-  ##' Given a prompt and acceptable inputs, query user for input until they enter an acceptable value.
   ##' @author Omar Chavez
   getvalidinput <- function(prompt, error, validinput = NULL, low=0, high=0)
   {

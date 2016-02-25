@@ -5,32 +5,7 @@
 #' \dontrun{prob()}
 prob<-function()
 {
-  ### Probability script for R.
-  ### by Josh Errickson
-  ### 1.4   - Changed title to always N(0,1), give prob in legend.
-  ### 1.3.4 - Never display probabilies as 0 or 1... just say <.0001 or >.9999
-  ### 1.3.3 - Display instructions when script is loaded.
-  ### 1.3.2 - Added name to plots.
-  ### 1.3.1 - Fixes to user input handling.
-  ### 1.3   - Helper function to handle user input - should no longer ever crash! Just keep requesting new input.
-  ### 1.2.1 - Added better error checking for first choice.
-  ### 1.2   - Auto-saving
-  ### 1.1   - Added looping action
-  ### 1.0.2 - Minor typo (double lower bound)
-  ### 1.0.1 - Clarified some language in prompts.
-  ### 1.0   - First version as cribbed from pval.R
 
-  ##' Given a prompt and acceptable inputs, query user for input until they enter an acceptable value.
-  ##'
-  ##'
-  ##' @title
-  ##' @param prompt String shown to users to prompt for input.
-  ##' @param error Error string shown when user enters an invalid selection.
-  ##' @param validinput If non-NULL, only accept input in this list.
-  ##' @param low Only accept numeric values above this value.
-  ##' @param high Only accept numeric values below this value. If low>=high,
-  ##' do not accept any numeric input not explictly in validinput.
-  ##' @return Acceptable user input.
   ##' @author Josh Errickson
   getvalidinput <- function(prompt, error, validinput = NULL, low=0, high=0)
   {
